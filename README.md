@@ -8,7 +8,7 @@ This sketch is my custom version of this sketch from this [Reddit] discussion st
 
 [Reddit]: https://www.reddit.com/r/generative/comments/g7o79g/processing_3_50_lines/
 
-[sourceImage]: Images/image.png "Source image"
+[sourceImage]: (Images/image.png "Source image" | width=256)
 
 
 [gist]: https://gist.github.com/u-ndefine/8e4bc21be4275f87fefe7b2a68487161
