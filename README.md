@@ -2,11 +2,13 @@
 
 This sketch is my custom version of this sketch from this [Reddit] discussion started by u/d_ynamic. (He share his original versione in this [gist])
 
-<img src="Images/image.png" height="256">
+<img src="Images/image.png" height="256">  <img src="Images/image-edit.png" height="256">
 
 
+It also generate the frames for creating a gif.
 
 
+<img src="Images/image-gif.gif" height="256">  
 
 
 [Reddit]: https://www.reddit.com/r/generative/comments/g7o79g/processing_3_50_lines/
