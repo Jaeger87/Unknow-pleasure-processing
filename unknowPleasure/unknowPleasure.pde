@@ -9,8 +9,12 @@ int widthOut = 0;
 int heightOut = 0;
 
 
+
+color backgr = 255;
+color linesColor = 0;
+
 void setup() {
-  background(255);
+  background(backgr);
   size(750, 750, P2D);
   PImage img = loadImage("image.png");
   widthOut = img.width;
@@ -18,6 +22,8 @@ void setup() {
   pg = createGraphics(widthOut, heightOut);
   float lastX = 0;
   pg.beginDraw(); 
+  pg.background(backgr);
+  pg.stroke(linesColor);
   pg.strokeWeight(2);
   pg.noFill();
   for (float y=0.0; y<step; y++) {
@@ -60,7 +66,7 @@ void setup() {
 // This happens as a separate thread and can take as long as it wants
 void createGifFrames() {
   pg.noStroke();
-  pg.fill(255);
+  pg.fill(backgr);
   for (int endX = widthOut - 3; endX > 0; endX -= 3)
   {
     pg.rect(endX, 0, widthOut - endX, heightOut);
