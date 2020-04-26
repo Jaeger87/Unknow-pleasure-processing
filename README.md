@@ -1,6 +1,6 @@
 # Unknow pleasure processing
 
-This sketch is my custom version of this sketch from this [Reddit] discussion started by u/d_ynamic. (He share his original versione in this [gist])
+This sketch is my custom version of this sketch from this [Reddit] discussion started by u/d_ynamic. (He share his original version in this [gist])
 
 <img src="Images/image.png" height="312">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <img src="Images/image-edit.png" height="312">
 
