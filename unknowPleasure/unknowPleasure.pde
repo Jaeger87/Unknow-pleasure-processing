@@ -2,16 +2,16 @@ float decel(float x) { // as an easing function
   return 1-(x-1)*(x-1);
 }
 
+color backgr = 255;
+color linesColor = 0;
 float step = 66.0f;
 float wavePeriod = 4f;
+
+
+
 PGraphics pg;
 int widthOut = 0;
 int heightOut = 0;
-
-
-
-color backgr = 255;
-color linesColor = 0;
 
 void setup() {
   background(backgr);
